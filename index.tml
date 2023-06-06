@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Site para estudo com imagens</title>
+  <style>
+
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+   
+    header {
+      background-color: #005fec;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 24px;
+      margin: 0;
+    }
+
+    /* Estilos do conteúdo principal */
+    main {
+      margin: 20px;
+    }
+
+    main h2 {
+      font-size: 20px;
+    }
+
+    main p {
+      margin-bottom: 10px;
+    }
+
+    
+    footer {
+      background-color: #005fec;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    footer p {
+      margin: 0;
+    }
+  </style>
+  <script>
+    function redirecionar(url) {
+      window.location.href = url;
+    }
+  </script>
+</head>
+<body>
+  <header>
+    <h1>Site para estudo com imagens</h1>
+  </header>
+
+  <main>
+    <section>
+      <h2>Bem-vindo</h2>
+      <p>Uma plataforma de educação  para o seu aprendizado e crescimento profissional.</p>
+      <p>Aqui você encontrará cursos de alta qualidade e materiais de estudo.</p>
+    </section>
+
+    <section>
+      <h2>Cursos Disponíveis</h2>
+      <p>Confira nossos cursos disponíveis e comece sua jornada de aprendizado agora mesmo:</p>
+	  <p>Clique nas imagens e sera redirecionado para a explicação da materia desejada.
+      <ul>
+        <li>
+          <p>Banco de dados</p>
+          <img src="https://www.cortex-intelligence.com/hubfs/Imported_Blog_Media/original-5d9dd00341a73a4e6803046d61b3b3dd-e1607639183846-2-1-2.jpg" alt="Curso 1" onclick="redirecionar('file:///C:/Users/Enio/Documents/Banco%20de%20dados%202.html')">
+        </li>
+        <li>
+          <p>Gestao de marketing</p>
+          <img src="https://blog.etus.com.br/wp-content/uploads/2021/04/etus_gestao-marketing-800x400.jpg" alt="Curso 2" onclick="redirecionar('')">
+        </li>
+        <li>
+          <p>Matematica financeira</p>
+          <img src="https://cursinhoparamedicina.com.br/wp-content/uploads/2022/11/Matematica-financeira.jpg" alt="Curso 3" onclick="redirecionar('')">
+        </li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 01/06/2023 </p>
+  </footer>
+</body>
+</html>
